@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F2F2F2;
+}
+
+
+.main-container{
+    background-color: aliceblue;
+}
+
+.nav-main-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.nav--links-container > ul{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+
+.nav--cart{
+    list-style-type: none;
+}
+
+.nav--cart a{
+    color: black;
+}
+
+
+
+.nav--account{
+    list-style-type: none;
+}
+
+.nav--account a{
+    text-decoration: none;
+    color: black;
+}
+
